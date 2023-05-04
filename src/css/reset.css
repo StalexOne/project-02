@@ -5,8 +5,17 @@ h3,
 h4,
 h5,
 h6,
-p {
+p, 
+
+{
   margin: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  color: currentColor;
+  text-decoration: none;
 }
 
 
@@ -16,10 +25,7 @@ ul, ol {
   list-style: none;
 }
 
-a {
-  color: currentColor;
-  text-decoration: none;
-}
+
 
 button {
   cursor: pointer;
