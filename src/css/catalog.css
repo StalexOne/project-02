@@ -54,11 +54,11 @@ section {
 }
 
 .section-catalog {
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 .catalog-container {
-  width: 375px;
+  max-width: 375px;
   margin: 0 auto;
   background-color: aquamarine;
 }
@@ -140,15 +140,15 @@ section {
 }
 
 
-/*====== desk ======*/
-@media screen and (min-width: 376px) and (max-width: 1279px) {
-
+/*====== tablet ======*/
+/* @media screen and (min-width: 376px) and (max-width: 1279px) { */
+@media screen and (min-width: 768px) {
   .section-catalog {
-    padding: 0 32px;
+    /* padding: 0 32px; */
   }
 
   .catalog-container {
-    width: 768px;
+    max-width: 768px;
     margin: 0 auto;
     background-color: aquamarine;
   }
@@ -181,14 +181,15 @@ section {
 
 }
 
+/*====== desctop ======*/
 @media screen and (min-width: 1280px) {
 
 .section-catalog {
-  padding: 80px 132px;
+  /* padding: 80px 0; */
 }
 
 .catalog-container {
-  width: 1176px;
+  max-width: 1280px;
   margin: 0 auto;
   background-color: aquamarine;
   }
