@@ -56,9 +56,9 @@ color: #1E2827;}
 
 }
 
-/* ----------------DESCTOP---------- 1208px-------------------- */
+/* ----------------DESCTOP---------- 1280px-------------------- */
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
 
     .new-watches {
         max-width: 100%;
