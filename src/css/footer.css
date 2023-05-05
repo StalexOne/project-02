@@ -1,0 +1,74 @@
+footer {
+  background-color: var(--backround-swipe);
+  padding: 40px 20px 20px;
+}
+.footer-container {
+  width: 100%;
+}
+.footer-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+  margin-bottom: 80px;
+}
+.footer-logo {
+  fill: var(--white);
+  margin-bottom: 40px;
+}
+.footer-item {
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+
+  color: var(--white);
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.footer-navigation-item {
+  font-family: 'Epilogue';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--white);
+}
+.footer-navigation-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+.footer-soc-list {
+  display: flex;
+  gap: 14px;
+}
+.footer-soc-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.footer-soc-icon {
+  fill: var(--white);
+}
+.footer-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.footer-text {
+  font-family: 'Epilogue';
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+
+  color: #c6cdd1;
+}
+.footer-privacy {
+  display: flex;
+  gap: 14px;
+}
