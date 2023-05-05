@@ -79,9 +79,56 @@ section {
   margin-bottom: 40px;
 }
 
+.div-test-over {
+  margin-bottom: 14px;
+  position: relative;
+  overflow: hidden;
+}
 
 .img-catalog {
-  margin-bottom: 14px;
+
+}
+
+.div-over-catalog {
+  background-color: #141414;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background: #1E2827;
+  border-radius: 8px;
+      transform: translateY(100%);
+        transition-property: transform;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 250ms;
+}
+
+.div-test-over:hover > .div-over-catalog {
+transform: translateY(0%);
+}
+
+.div-test-over:focus > .div-over-catalog {
+  transform: translateY(0%);
+}
+
+
+
+
+.p-over-catalog {
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  margin-bottom: 4px;
+}
+
+.span-over-catalog {
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.01em;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* H2 */
