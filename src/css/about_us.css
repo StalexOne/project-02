@@ -1,12 +1,12 @@
 .about-container {
+  width: 375px;
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 375px;
-  margin: 0 auto;
   padding-bottom: 80px;
+  margin: 0 auto;
 }
-.about-us-title {
+.about-title {
   font-weight: 600;
   font-size: 32px;
   line-height: 1.25;
@@ -14,10 +14,10 @@
   color: var(--backround-swipe);
   margin-bottom: 40px;
 }
-.about-text-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.about-item:first-child {
+  margin-bottom: 20px;
+}
+.about-list {
   margin-bottom: 40px;
 }
 .about-text {
@@ -46,54 +46,53 @@
     line-height: 1.1;
   }
   .about-wraper {
+    width: 704px;
     display: flex;
-    flex-direction: row;
     gap: 40px;
-  }
-  .about-text-wrap {
     flex-direction: row;
+    align-content: center;
+
+    flex-wrap: wrap;
   }
-  .about-text-first {
-    width: 220px;
+  .about-list {
+    width: 490px;
+    display: flex;
+    gap: 20px;
   }
-  .about-text-second {
-    width: 250px;
+  .about-item:first-child {
+    margin-bottom: 0;
   }
+
   .about-gif {
     width: 704px;
     height: 465px;
   }
-  @media screen and (min-width: 1280px) {
-    .about-container {
-      width: 1440px;
-      padding-top: 80px;
-      padding-bottom: 80px;
-      padding-left: 132px;
-      padding-right: 132px;
-      margin: 0 auto;
-    }
-    .about-wraper {
-      gap: 110px;
-    }
-    .about-us-title {
-      position: absolute;
-    }
-    .about-text-wrap {
-      width: 892px;
-      flex-direction: row;
-      margin-left: auto;
-    }
+}
+@media screen and (min-width: 1280px) {
+  .about-container {
+    width: 1440px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 132px;
+    padding-right: 132px;
+    margin: 0 auto;
+  }
+  .about-wraper {
+    width: 1176px;
+    gap: 124px;
+  }
+  .about-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .about-list {
+    width: 892px;
+    gap: 40px;
+  }
 
-    .about-text-first {
-      min-width: 452px;
-    }
-    .about-text-second {
-      min-width: 420px;
-    }
-    .about-gif {
-      width: 892px;
-      height: 500px;
-      margin-left: auto;
-    }
+  .about-gif {
+    width: 892px;
+    height: 500px;
+    margin-left: auto;
   }
 }
