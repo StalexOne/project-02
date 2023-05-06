@@ -95,6 +95,7 @@ a {
   bottom: 0;
   background: #1E2827;
   border-radius: 8px;
+  padding: 20px;
       transform: translateY(100%);
         transition-property: transform;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -118,7 +119,7 @@ transform: translateY(0%);
     line-height: 1.28;
     text-transform: uppercase;
     color: #FFFFFF;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .span-over-catalog {
@@ -248,6 +249,18 @@ transform: translateY(0%);
 }
 
 
+.hiden {
+  position: initial;
+    width: initial;
+    height: initial;
+    margin: initial;
+    border: initial;
+    padding: initial;
+    white-space: initial;
+    clip-path: initial;
+    clip: initial;
+    overflow: initial;
+}
 
 
 }
