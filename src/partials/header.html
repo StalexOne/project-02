@@ -19,7 +19,12 @@
         </li>
       </ul>
     </nav>
-    <button class="mobile-menu-open" data-menu-open type="button">
+    <button
+      class="mobile-menu-open js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      type="button"
+    >
       <svg class="mobile-menu-open_icon" width="24" height="24">
         <use href="../img/icons.svg#icon-burger-menu"></use>
       </svg>
@@ -28,7 +33,8 @@
       <a class="phone-link" href="+380684439426">+380 (68) 443-94-26</a>
     </button>
   </div>
-  <div class="mobile-menu is-hidden" data-menu>
+  <!-------------- Mobile menu------------- -->
+  <div class="mobile-menu js-menu-container" id="mobile-menu">
     <div class="mobile-menu-container">
       <a class="header-logo-link" href="../index.html">
         <svg class="logo-icon" width="19" height="19">
@@ -36,7 +42,7 @@
         </svg>
         thewatchspot
       </a>
-      <button class="mobile-menu-close-btn" data-menu-close type="button">
+      <button class="mobile-menu-close-btn js-close-menu" type="button">
         <svg class="mobile-menu-close-icon" width="24" height="24">
           <use href="../img/icons.svg#icon-x"></use>
         </svg>
