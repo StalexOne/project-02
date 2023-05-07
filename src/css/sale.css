@@ -25,8 +25,17 @@
 }
 
 
-.sale-gallery {
+.sale-gallary {
+    display: flex;
+    gap: 20px;
     margin-bottom: 40px;
+}
+
+.list-photo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80px;
 }
 
 .sale-product {
@@ -49,6 +58,39 @@
 
 .sale-tag {
     margin-bottom: 16px;
+}
+
+.sale-price {
+    font-family: 'Epilogue';
+    font-size: 18px;
+    line-height: 1.33;
+
+    letter-spacing: -0.02em;
+
+    color: #141414;
+}
+
+.sale-oldprice {
+    position: relative;
+    margin-left: 8px;
+
+    font-family: 'Epilogue';
+    font-size: 12px;
+    line-height: 1.77;
+
+    color: rgba(20, 20, 20, 0.5);
+}
+
+.sale-oldprice::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+
+    background-color: rgba(20, 20, 20, 0.5);
+
 }
 
 .sale-product-title {
@@ -107,12 +149,20 @@
 
     .sale-container {
         max-width: 768px;
-        padding-left: 98px;
-        padding-right: 98px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .sale-containet-tab {
+        position: relative;
+        padding: 84px 66px 0;
     }
 
     .sale-title {
-        margin-bottom: 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-bottom: 0px;
 
         font-family: 'Epilogue';
         font-size: 40px;
@@ -121,6 +171,14 @@
         letter-spacing: -0.02em;
 
         color: #1E2827;
+    }
+
+
+    .list-photo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 146px;
     }
 
     .sale-name {
@@ -132,14 +190,24 @@
 
 @media screen and (min-width:1280px) {
     .sale-section {
-        padding-bottom: 128px;
+        padding-bottom: 160px;
+    }
+
+    .sale-product {
+        width: 369px;
     }
 
     .sale-container {
         max-width: 1280px;
-        padding-left: 99px;
-        padding-right: 100px;
+        padding-left: 52px;
+        padding-right: 52px;
     }
 
+    .sale-containet-tab {
+        display: flex;
+        gap: 40px;
+        position: relative;
+        padding: 124px 98px 0;
+    }
 
 }
