@@ -49,10 +49,11 @@
 }
 
 .modal-img-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
   padding: 0 10px;
+}
+
+.modal-img {
+  margin-bottom: 14px;
 }
 
 .modal-clock {
@@ -138,6 +139,10 @@
   color: rgba(20, 20, 20, 0.4);
 }
 
+.policy {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .modal {
     width: 744px;
@@ -149,6 +154,8 @@
     max-height: 670px;
     overflow: visible;
     display: flex;
+    gap: 20px;
+    height: 100%;
   }
 
   .button-modal-close {
@@ -162,9 +169,21 @@
     padding: 0;
   }
 
+  .modal-img {
+    margin-bottom: 14px;
+  }
+
+  .modal-title {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   .modal-form {
     display: flex;
     flex-direction: column;
+    width: 368px;
   }
 
   .modal-form-title {
@@ -185,6 +204,15 @@
   .modal {
     max-width: 904px;
     max-height: 694px;
+    gap: 40px;
+  }
+
+  .modal-img {
+    margin-bottom: 14px;
+  }
+
+  .modal-form {
+    width: 508px;
   }
 
   .modal-form-input {
@@ -193,5 +221,10 @@
 
   .modal-comment {
     margin-bottom: 40px;
+  }
+
+  .modal-policy {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
