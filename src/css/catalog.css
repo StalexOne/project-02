@@ -201,41 +201,12 @@ ol {
   border: 1px solid #1E2827;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .button-catalog:hover, .button-catalog:focus {
   border: 1px solid #FFFFFF;
 }
 
 .li-catalog {
-  height: 325px;
+  height: 342px;
 }
 
 .hiden {
@@ -250,6 +221,17 @@ ol {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.dddddd {
+  background-color: aquamarine;
+}
+.ddddd {
+  background-color:darkorchid;
+}
+
+
+
+
 
 /*====== Mob ======*/
 @media screen and (min-width: 50px) and (max-width: 375px) {
@@ -290,9 +272,9 @@ ol {
   gap: 32px;
 }
 
-.li-catalog {
+/* .li-catalog {
   height: 410px;
-}
+} */
 
 .hiden {
   position: absolute;
