@@ -23,7 +23,8 @@ footer {
   fill: var(--white);
 }
 .footer-item {
-  font-family: 'Epilogue';
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -34,7 +35,7 @@ footer {
   margin-bottom: 20px;
 }
 .footer-navigation-item {
-  font-family: 'Epilogue';
+  font-family: 'Epilogue', sans-serif;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -71,7 +72,7 @@ footer {
   gap: 14px;
 }
 .footer-text {
-  font-family: 'Epilogue';
+  font-family: 'Epilogue', sans-serif;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
