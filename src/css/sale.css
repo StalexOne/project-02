@@ -191,6 +191,8 @@
 @media screen and (min-width:1280px) {
     .sale-section {
         padding-bottom: 160px;
+        /* background-color: #EFEFEF; */
+        padding-top: 80px;
     }
 
     .sale-product {
@@ -209,5 +211,6 @@
         position: relative;
         padding: 124px 98px 0;
     }
-
+    .sale-gallary  {
+        margin-bottom: 0px;}
 }
