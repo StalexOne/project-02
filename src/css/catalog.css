@@ -58,6 +58,7 @@ ol {
 .catalog-container {
   max-width: 375px;
   margin: 0 auto;
+  position: relative;
   /* background-color: aquamarine; */
 }
 
@@ -201,12 +202,36 @@ ol {
   border: 1px solid #1E2827;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .button-catalog:hover, .button-catalog:focus {
   border: 1px solid #FFFFFF;
 }
 
 .li-catalog {
-  height: 342px;
+  height: 347px;
 }
 
 .hiden {
@@ -222,12 +247,7 @@ ol {
   overflow: hidden;
 }
 
-.dddddd {
-  background-color: aquamarine;
-}
-.ddddd {
-  background-color:darkorchid;
-}
+
 
 
 
