@@ -20,8 +20,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/project-02/assets/index-c97b5e64.js"></script>
-    <link rel="stylesheet" href="/project-02/assets/index-137ee612.css">
+    <script type="module" crossorigin src="/project-02/assets/index-f6d4c85c.js"></script>
+    <link rel="stylesheet" href="/project-02/assets/index-3729d024.css">
   </head>
   <body>
     <header class="header">
@@ -626,7 +626,7 @@
         </li>
 
       </ul>
-      <button class="button-catalog">Buy now</button>
+      <button class="button-catalog" data-modal-clock-open >Buy now</button>
     </div>
 
     </div>
@@ -889,10 +889,90 @@
   </div>
 </footer>
 
-    <header class="modal">
-  
-  
-</header>
+    <!-- -----------------------MODAL-------------------- -->
+<div class="backdrop visually-hidden" data-clock-modal>
+    <div class="modal">
+      <button class="button-modal-close" type="button" data-modal-clock-close>
+        <svg class="icon-close-btn" widht="10" height="10">
+          <use href="../img/close.svg##close"></use>
+        </svg>
+      </button>
+      <div class="modal-img-wrap">
+        <img
+          class="modal-img"
+          src="/project-02/assets/img-modal-1x-ae94a7b5.jpg"
+          alt="clock"
+          width="276"
+          height="325"
+        />
+        <h3 class="modal-title">Tube Watch S42 Date Steel With Black Case</h3>
+        <p class="modal-price">€395</p>
+      </div>
+      <div>
+        <form class="modal-form">
+          <label class="modal-form-label">
+            <span class="modal-form-title">Full name</span>
+            <span class="modal-form-input-wrapper">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-form-input"
+                required
+                pattern="[a-zA-Zа-яА-ЯіІїЇ]+"
+                minlength="2"
+                placeholder="Enter your full name"
+              />
+            </span>
+          </label>
+          <label class="modal-form-label">
+            <span class="modal-form-title">Email</span>
+            <span class="modal-form-input-wrapper">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-form-input"
+                required
+                pattern="[a-zA-Zа-яА-ЯіІїЇ]+"
+                minlength="2"
+                placeholder="Enter your email"
+              />
+            </span>
+          </label>
+          <label class="modal-form-label">
+            <span class="modal-form-title">Card number</span>
+            <span class="modal-form-input-wrapper">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-form-input"
+                required
+                pattern="[a-zA-Zа-яА-ЯіІїЇ]+"
+                minlength="2"
+                placeholder="Enter card"
+              />
+            </span>
+          </label>
+          <label class="modal-label-comment">
+            <span class="modal-form-title">Comment</span>
+            <textarea
+              name="user-comment"
+              class="modal-comment"
+              placeholder="Enter your text"
+            ></textarea>
+          </label>
+          <button class="modal-btn-submit" type="submit">submit</button>
+          <p class="modal-policy">
+            By clicking on “Submit” button, you agree to our
+            <a href="" class="policy">Privacy Policy</a> ,
+            <span class="promodo"
+              >and allow Promodo to use this information for marketing
+              purposes.</span
+            >
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
 
     <script
       defer
