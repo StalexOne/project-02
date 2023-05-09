@@ -36,6 +36,7 @@ text-transform: capitalize;
     gap: 20px;
     flex-wrap: wrap;}
 
+
 /* ---------------------------TABLET-------------------------------- */
 @media screen and (min-width: 768px)
 {
