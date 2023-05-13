@@ -29,7 +29,7 @@
   color: var(--background-maine);
 }
 .about-gif {
-  width: 335px;
+  width: 336px;
   height: 365px;
   object-fit: cover;
 }
@@ -71,11 +71,11 @@
 }
 @media screen and (min-width: 1280px) {
   .about-container {
-    max-width: 1440px;
+    max-width: 1280px;
     padding-top: 80px;
     padding-bottom: 80px;
-    padding-left: 132px;
-    padding-right: 132px;
+    padding-left: 32px;
+    padding-right: 78px;
     margin: 0 auto;
   }
   .about-wraper {
